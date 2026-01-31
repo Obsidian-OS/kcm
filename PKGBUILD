@@ -10,10 +10,6 @@ license=('GPL-3.0-or-later')
 depends=(
     'qt6-base'
     'qt6-declarative'
-    'kf6-kcmutils'
-    'kf6-ki18n'
-    'kf6-kconfigwidgets'
-    'kf6-coreaddons'
     'kirigami'
     'obsidianctl'
     'polkit'
