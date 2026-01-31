@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=Plasma/Generic
+X-KDE-Library=kcm_obsidianos
+X-KDE-ParentApp=kcontrol
+X-KDE-PluginInfo-Name=kcm_obsidianos
+X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Author=ObsidianOS Team
+X-KDE-PluginInfo-Email=neo@obsidianos.xyz
+X-KDE-PluginInfo-License=GPL-3.0
+X-KDE-PluginInfo-Category=System
+X-KDE-PluginKeyword=obsidianos
+X-KDE-Keywords=obsidian,system,backup,slot,update,control,ab
+X-KDE-FormFactors=desktop,tablet
+X-KDE-Weight=50
+Icon=obsidianos
+Name=ObsidianOS
+Name[en_US]=ObsidianOS
+Comment=Manage ObsidianOS slots, updates, and backups
+Comment[en_US]=Manage ObsidianOS slots, updates, and backups
+Categories=Qt;KDE;System;Settings;
+X-Plasma-MainScript=ui/main.qml

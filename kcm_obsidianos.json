@@ -1,0 +1,24 @@
+{
+  "KPlugin": {
+    "Id": "kcm_obsidianos",
+    "Name": "ObsidianOS",
+    "Name[en_US]": "ObsidianOS",
+    "Description": "Manage ObsidianOS slots, updates, and backups",
+    "Description[en_US]": "Manage ObsidianOS slots, updates, and backups",
+    "Icon": "obsidianos",
+    "Authors": [
+      {
+        "Name": "NEOAPS",
+        "Email": "neo@obsidianos.xyz"
+      }
+    ],
+    "Category": "Hardware",
+    "License": "GPL-3.0",
+    "Version": "1.0.0",
+    "Website": "https://obsidianos.xyz"
+  },
+  "X-KDE-Keywords": "obsidian,system,backup,slot,update,control,obsidianos,ab,A/B",
+  "X-KDE-ParentApp": "systemsettings",
+  "X-KDE-System-Settings-Parent-Category": "hardware",
+  "X-KDE-Weight": 100
+}
