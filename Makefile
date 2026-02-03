@@ -14,7 +14,7 @@ build: configure
 	@cmake --build $(BUILD_DIR) --parallel
 
 install: build
-	@cmake --install $(BUILD_DIR)
+	@DESTDIR=$(DESTDIR) cmake --install $(BUILD_DIR)
 
 uninstall:
 	@if [ -f $(BUILD_DIR)/install_manifest.txt ]; then \
